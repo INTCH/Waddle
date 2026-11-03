@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon layer: the foreground silhouette with the belly arrow cut out. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.95"
+        android:scaleY="0.95">
+        <path android:fillColor="#000000" android:pathData="M37,46C31,50 26,56 25,62C25,64.5 27.5,65 30,63C32,61 34,58 35,56Z" />
+        <path android:fillColor="#000000" android:pathData="M71,46C77,50 82,56 83,62C83,64.5 80.5,65 78,63C76,61 74,58 73,56Z" />
+        <path android:fillColor="#000000" android:pathData="M36,79C36,76.5 40,76 44,76.5C48,77 49.5,79 48.5,81.5C47.5,84 44,84.5 41.5,84C38.5,83.5 36,82 36,79Z" />
+        <path android:fillColor="#000000" android:pathData="M72,79C72,76.5 68,76 64,76.5C60,77 58.5,79 59.5,81.5C60.5,84 64,84.5 66.5,84C69.5,83.5 72,82 72,79Z" />
+        <path android:fillColor="#000000" android:fillType="evenOdd" android:pathData="M54,24C65,24 71.5,32 72.5,44C73.5,52 76,58 76,66C76,75 67,80 54,80C41,80 32,75 32,66C32,58 34.5,52 35.5,44C36.5,32 43,24 54,24Z M54,37.5C56,33.5 59.5,32 63,32.5C67.5,33 70,37 69.8,41.5C69.6,46 66.5,49 62,50C60.5,50.3 59.8,51 59.8,52.5L59.8,59.5C59.8,60.5 60.3,61 61.3,61L66.5,61C68,61 68.7,62.6 67.7,63.8L55.6,75.5C54.8,76.4 53.2,76.4 52.4,75.5L40.3,63.8C39.3,62.6 40,61 41.5,61L46.7,61C47.7,61 48.2,60.5 48.2,59.5L48.2,52.5C48.2,51 47.5,50.3 46,50C41.5,49 38.4,46 38.2,41.5C38,37 40.5,33 45,32.5C48.5,32 52,33.5 54,37.5Z" />
+        <path android:fillColor="#000000" android:pathData="M46.3,40.7m-2.6,0a2.6,2.6 0,1 1,5.2 0a2.6,2.6 0,1 1,-5.2 0" />
+        <path android:fillColor="#000000" android:pathData="M61.7,40.7m-2.6,0a2.6,2.6 0,1 1,5.2 0a2.6,2.6 0,1 1,-5.2 0" />
+        <path android:fillColor="#000000" android:pathData="M50.8,43.2L57.2,43.2C58,43.2 58.3,44 57.8,44.6L54.7,47.4C54.3,47.7 53.7,47.7 53.3,47.4L50.2,44.6C49.7,44 50,43.2 50.8,43.2Z" />
+    </group>
+</vector>

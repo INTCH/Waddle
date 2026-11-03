@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Waddle</string>
+    <string name="share_label">Download with Waddle</string>
+
+    <!-- Common actions -->
+    <string name="action_download">Download</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_done">Done</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_share">Share</string>
+    <string name="action_select">Select</string>
+    <string name="action_new">New</string>
+    <string name="action_retry">Try again</string>
+    <string name="cd_clear">Clear</string>
+    <string name="cd_back">Back</string>
+
+    <!-- Tabs -->
+    <string name="tab_download">Download</string>
+    <string name="tab_gallery">Gallery</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Notifications -->
+    <string name="channel_progress">Download progress</string>
+    <string name="channel_done">Finished downloads</string>
+    <string name="notif_preparing">Preparing…</string>
+    <string name="notif_percent">%1$d%%</string>
+    <plurals name="notif_files_downloaded">
+        <item quantity="one">%d file downloaded</item>
+        <item quantity="other">%d files downloaded</item>
+    </plurals>
+    <string name="notif_saved_to">Saved to %1$s</string>
+    <string name="notif_failed">Download failed: %1$s</string>
+    <plurals name="share_files">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+
+    <!-- Download errors and notes -->
+    <string name="error_channel_link">Channel and profile links can\'t be downloaded. Share a video or playlist link instead.</string>
+    <string name="error_too_many">This link has %1$d videos. Paste it into Waddle to choose which ones to download.</string>
+    <string name="note_stale_session">Your %1$s session looks invalid, so this was downloaded signed out. Sign in again under Settings → Accounts.</string>
+    <plurals name="note_partial">
+        <item quantity="one">%d file downloaded; some items could not be downloaded.</item>
+        <item quantity="other">%d files downloaded; some items could not be downloaded.</item>
+    </plurals>
+    <string name="error_needs_login">This content requires signing in. Sign in to this site under Settings → Accounts.\n%1$s</string>
+    <string name="error_no_video">This post has no video (photos can\'t be downloaded yet).</string>
+    <string name="error_unsupported">This link isn\'t supported.</string>
+    <string name="error_no_internet">No internet connection.</string>
+
+    <!-- Share panel and download screen -->
+    <string name="toast_no_link">No link found in the shared text</string>
+    <string name="toast_grant_access_first">Grant file access in Waddle first</string>
+    <string name="toast_downloading_to">Downloading → %1$s</string>
+    <string name="title_loading">Fetching title…</string>
+    <string name="title_unavailable">Couldn\'t fetch the title</string>
+    <string name="notice_select_one">Select at least one video.</string>
+    <string name="notice_paste_first">Paste a link first.</string>
+    <string name="notice_channel">This is a channel or profile link. Use a video or playlist link.</string>
+
+    <!-- Download options -->
+    <string name="hint_file_name">File name</string>
+    <plurals name="n_videos">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <string name="entries_all">all</string>
+    <string name="entries_selected">%1$d selected</string>
+    <string name="entries_count">%1$d/%2$d selected</string>
+    <string name="entries_select_none">None</string>
+    <string name="entries_select_all">All</string>
+    <string name="entry_fallback">Video %1$d</string>
+    <string name="range_full">Full length</string>
+    <string name="range_partial">Clip: %1$s</string>
+    <string name="cd_download_full">Download full length</string>
+    <string name="range_title">Download a clip</string>
+    <string name="clip_start">Start</string>
+    <string name="clip_end">End</string>
+    <string name="range_info">Clip length %1$s. The cut part is re-encoded, which takes a while for long clips.</string>
+    <string name="range_invalid">End must be after start.</string>
+    <string name="options_folder">Folder</string>
+    <string name="options_quality">Quality</string>
+    <string name="quality_summary_video">%1$s · mp4</string>
+    <string name="quality_best">Best</string>
+    <string name="quality_1080" translatable="false">1080p</string>
+    <string name="quality_720" translatable="false">720p</string>
+    <string name="quality_480" translatable="false">480p</string>
+    <string name="quality_mp3" translatable="false">MP3</string>
+    <string name="new_folder_title">New folder</string>
+    <string name="field_name">Name</string>
+
+    <!-- Home -->
+    <string name="hint_paste_link">Paste a link</string>
+    <string name="cd_paste">Paste from clipboard</string>
+    <string name="downloads_header">Downloads</string>
+    <string name="action_clear_finished">Clear finished</string>
+    <string name="empty_title">No downloads yet</string>
+    <string name="empty_body">Share a video to Waddle or paste its link here.</string>
+    <string name="job_fallback">Download</string>
+    <string name="status_queued">Queued</string>
+    <string name="status_downloading">Downloading…</string>
+    <string name="status_done">Done · %1$s</string>
+    <string name="status_done_files">Done · %1$s · %2$d files</string>
+    <string name="status_tap_to_open">tap to open</string>
+    <string name="status_cancelled">Cancelled.</string>
+    <string name="status_failed">This link couldn\'t be downloaded.</string>
+
+    <!-- Gallery -->
+    <string name="search_hint">Search</string>
+    <string name="search_in_folder">Search this folder</string>
+    <string name="no_results">No results.</string>
+    <string name="folder_empty">This folder is empty.</string>
+    <string name="toast_folder_action_failed">Couldn\'t do that (a folder with that name may already exist)</string>
+    <string name="toast_some_failed">Some files couldn\'t be changed</string>
+    <string name="delete_folder_title">Delete \"%1$s\"?</string>
+    <string name="delete_folder_empty">The folder is empty.</string>
+    <plurals name="delete_folder_body">
+        <item quantity="one">The %d file in it will also be permanently deleted from this device.</item>
+        <item quantity="other">The %d files in it will also be permanently deleted from this device.</item>
+    </plurals>
+    <string name="delete_file_title">Delete?</string>
+    <string name="delete_files_title">Delete %1$d files?</string>
+    <string name="delete_file_body">\"%1$s\" will be permanently deleted from this device.</string>
+    <string name="delete_files_body">The %1$d selected files will be permanently deleted from this device.</string>
+    <string name="action_merge">Move contents to another folder</string>
+    <string name="action_move">Move to another folder</string>
+    <string name="cd_end_selection">End selection</string>
+    <string name="n_selected">%1$d selected</string>
+    <string name="cd_select_all">Select all</string>
+    <string name="cd_deselect_all">Deselect all</string>
+    <string name="move_title">Which folder?</string>
+    <string name="move_no_targets">There are no other folders. You can create one from the gallery home.</string>
+    <string name="cd_audio">Audio</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to Waddle</string>
+    <string name="onboarding_body">Downloads are saved to Internal storage/Waddle/Downloads, in folders you choose. Only download content you have the right to download.</string>
+    <string name="step_storage_title">File access (required)</string>
+    <string name="step_storage_body">So Waddle can create its folder at the top of your storage and manage the files in it.</string>
+    <string name="step_notif_title">Notifications</string>
+    <string name="step_notif_body">To see download progress and when a download finishes.</string>
+    <string name="step_battery_title">Remove battery restrictions</string>
+    <string name="step_battery_body">So long downloads aren\'t cut off when the app is closed.</string>
+    <string name="step_granted">✓ Granted</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_start">Start</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="section_sharing">Sharing</string>
+    <string name="silent_share">Silent share</string>
+    <string name="silent_share_hint">Sharing a link downloads it right away, without the panel, using its title and the last folder.</string>
+    <string name="section_accounts">Accounts</string>
+    <string name="account_signed_in">Signed in</string>
+    <string name="account_cookies_loaded">Cookies loaded</string>
+    <string name="account_signed_out">Not signed in</string>
+    <string name="account_cookies_txt">Via cookies.txt</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_choose_file">Choose file</string>
+    <string name="accounts_hint">For private accounts, stories or age-restricted content that needs a sign-in. YouTube doesn\'t allow signing in inside an app: export your youtube.com cookies from a desktop browser with a cookies.txt export extension, then choose the file here.</string>
+    <string name="toast_youtube_cookies_loaded">YouTube cookies loaded</string>
+    <string name="toast_youtube_cookies_missing">This file has no YouTube cookies (it must be a Netscape cookies.txt).</string>
+    <string name="section_engine">Download engine</string>
+    <string name="engine_loading">Loading yt-dlp…</string>
+    <string name="engine_hint">If a site stops downloading, update this first.</string>
+    <string name="engine_updated">Updated · %1$s</string>
+    <string name="engine_up_to_date">Already up to date · %1$s</string>
+    <string name="engine_error">Error: %1$s</string>
+    <string name="action_update">Update</string>
+    <string name="action_updating">Updating…</string>
+    <string name="auto_update">Update automatically</string>
+    <string name="auto_update_hint">At most once a day, when the app starts, download the latest stable yt-dlp release from GitHub.</string>
+    <string name="section_storage">Download location</string>
+    <string name="storage_moving">Moving…</string>
+    <string name="storage_hint">Tap to change · files are moved to the new location</string>
+    <plurals name="folder_files">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <string name="total">Total</string>
+    <string name="toast_internal_only">Only a folder on the device\'s internal storage can be chosen.</string>
+    <string name="toast_inside_current">A folder inside the current location can\'t be chosen.</string>
+    <string name="toast_location_changed">Download location changed.</string>
+    <string name="toast_some_not_moved">Some files couldn\'t be moved; they stayed in the old location.</string>
+
+    <!-- Sign-in page -->
+    <string name="login_title">%1$s sign-in</string>
+    <string name="toast_account_linked">%1$s account connected</string>
+    <string name="toast_no_login">No sign-in found. Sign in on the page first.</string>
+</resources>

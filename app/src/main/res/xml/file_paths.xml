@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- The downloads folder can be moved anywhere on internal storage (Settings), so open/share URIs
+         must cover all of it. The provider is not exported: only files the app explicitly hands out
+         are readable, and only by the app they were handed to. -->
+    <external-path name="storage" path="." />
+</paths>

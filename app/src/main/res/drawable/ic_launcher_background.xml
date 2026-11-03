@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icy mint (top-left) to sky blue (bottom-right). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="315"
+        android:startColor="#B2F5E4"
+        android:endColor="#7EC6FA"
+        android:type="linear" />
+</shape>
