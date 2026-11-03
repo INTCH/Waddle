@@ -75,6 +75,6 @@ jobs:
         run: |
           gh release create "$GITHUB_REF_NAME" \
             --title "Waddle $VERSION" \
-            --generate-notes \
+            --notes "Android 11+ (arm64). Download **Waddle-$VERSION.apk** and install it; see the README. Only download content you have the right to download. Check the APK against the .sha256 file." \
             "dist/Waddle-$VERSION.apk" \
             "dist/Waddle-$VERSION.apk.sha256"
